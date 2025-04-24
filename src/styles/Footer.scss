@@ -1,0 +1,136 @@
+.footer-root {
+  height: 240px !important;
+  background: url("/assets/imgs/footer-bg.png");
+  background-color: rgba(0, 0, 0, 0.25);
+  background-size: cover;
+  height: 240px;
+
+  @media (min-width: 2000px) {
+    width: 2000px;
+    margin: 0 auto;
+  }
+
+  @media (max-width: 900px) {
+    height: 365px !important;
+  }
+}
+
+.footerWrapper {
+  width: 95% !important;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+
+  @media (max-width: 900px) {
+    padding: 10px 0;
+  }
+}
+
+.list {
+  list-style-type: none;
+  color: rgba(255, 255, 255, 0.53);
+  text-align: center;
+}
+
+.listHeading {
+  font-size: 18px;
+  color: #ffffff;
+  padding: 10px 0;
+  font-weight: bold;
+
+  @media (max-width: 1200px) {
+    font-size: 16px;
+  }
+}
+
+.listItem {
+  padding: 10px 0;
+
+  @media (max-width: 1200px) {
+    font-size: 14px;
+  }
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.socialWrapper {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 10px;
+  padding-top: 10px;
+}
+
+.socialItem {
+  height: 38px;
+  width: 38px;
+  background-color: rgba(255, 255, 255, 0.05);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+
+  @media (max-width: 600px) {
+    height: 30px;
+    width: 30px;
+  }
+}
+
+.footer-logo {
+  height: 50px;
+  width: 315px;
+
+  @media (max-width: 1200px) {
+    height: 45px;
+    width: 275px;
+  }
+
+  @media (max-width: 600px) {
+    height: 40px;
+    width: 240px;
+  }
+}
+
+.footer-logoWrapper {
+  display: flex;
+  justify-content: flex-start;
+
+  @media (max-width: 900px) {
+    justify-content: center;
+  }
+}
+
+.footer-socialWrapper {
+  display: flex;
+  justify-content: flex-end;
+
+  @media (max-width: 900px) {
+    justify-content: center;
+  }
+}
+
+.copyright {
+  width: 100%;
+  margin: 0 auto;
+  border-top: 2px solid #929292;
+  padding: 20px 0px;
+  text-align: center;
+  color: #929292;
+  font-size: 14px;
+
+  @media (max-width: 600px) {
+    font-size: 12px;
+  }
+}
+
+.socialIcon {
+  @media (max-width: 600px) {
+    height: 15px;
+    width: 15px;
+  }
+}
